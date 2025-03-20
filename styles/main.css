@@ -75,6 +75,12 @@ body {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* Mostrar el modal cuando no tenga la clase hidden */
+.modal:not(.hidden) {
+    display: block;
+}
+
 .modal h2{
     padding: 1rem 0px;
 }
